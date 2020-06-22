@@ -1,0 +1,21 @@
+.body{
+    background-color: rgb(249, 252, 249);
+}
+.main{
+background-color: rgb(249, 252, 249);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.containerProduto{
+    width: 90%;
+    min-height: 200px;
+    background-color: rgb(255, 255, 255);
+    border-image: initial;
+    border-color: rgb(175, 173, 173);
+    border-width: 2px rgb(175, 173, 173);
+    padding: 1%;
+    margin: 1%;
+    display: flex;
+}

@@ -1,0 +1,39 @@
+nav{
+  height: 80px;
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5%;
+}
+.logo-header{
+  width: 13%;
+}
+.detail{
+  width: 4%;
+  margin-right: 2%;
+}
+@media screen and (max-width: 700px){
+  nav{
+    height: 60px;
+  }
+  .logo{
+    width: 18%;
+  }
+  .detail{
+    width: 6%;
+    margin-right: 2%;
+  }
+}
+@media screen and (max-width: 500px){
+  nav{
+    height: 50px;
+  }
+  .logo{
+    width: 24%;
+  }
+  .detail{
+    width: 8%;
+    margin-right: 2%;
+  }
+}

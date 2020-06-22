@@ -1,0 +1,103 @@
+.localiza{
+    min-height: 472px;
+    width: 100%;
+    background: url("../../assets/welcome.png") no-repeat center top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo{
+    width: 40%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 400;
+    padding-top: 6%;
+    text-align: center;
+}
+.pesquisa{
+    width: 40%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    border-color: rgb(153, 153, 153);
+    
+}
+.endereco{
+    width: 90%;
+    height: 48px;
+    font-weight: lighter;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    background: url(../../assets/favicon.jpg) no-repeat center left;
+    background-size: 8%;
+    background-color: rgb(255, 255, 255);
+    line-height: 20px;
+    font-family: Roboto;
+    padding-right: 20px;
+    z-index: 1;
+    padding-left: 10%;
+    padding-bottom: 1%;
+    font-size: 1.6em;
+    margin-top: 1.5%;
+    border: none;
+}
+.enviar{
+    background: url(../../assets/lupaB.png) no-repeat center right;
+    background-size: 90%;
+    background-color: rgb(255, 255, 255);
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: rgb(153, 153, 153);
+    
+}
+@media screen and (max-width: 1140px){
+    .titulo, .pesquisa{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 800px){
+    .titulo, .pesquisa{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 580px){
+    .titulo{
+        width: 90%;
+        font-size: 1.8rem;
+    }
+    .pesquisa{
+        width: 90%;
+        font-size: 0.9em;
+    }
+    .endereco{
+        padding-left: 10%;
+    }
+    .enviar{
+        width: 6%;
+    }
+}
+@media screen and (max-width: 440px){
+    .titulo{
+        width: 96%;
+        font-size: 1.8rem;
+    }
+    .pesquisa{
+        width: 96%;
+        font-size: 0.7em;
+    }
+    .endereco{
+        padding-left: 8%;
+        background-size: 6%;
+    }
+    .enviar{
+        width: 4%;
+        cursor: pointer;
+    }
+}

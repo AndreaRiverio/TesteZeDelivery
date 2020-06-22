@@ -1,0 +1,64 @@
+.footer{
+    width: 100%;
+    background: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffffff;
+    border-top: 30px solid gray;
+}
+.line_one{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2% 0%;
+}
+.logo-footer{
+    margin: 0% 20%;
+}
+.redes_sociais{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 4%;
+}
+.twitter, .facebook, .instagram{
+    width: 5%;
+}
+.line_two{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 2% 0%;
+    border-top: 1px solid gray;
+    line-height: 40px;
+}
+.line_two h6{
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding-right: 4%;
+
+}
+.line_two div{
+    font-weight: 400;
+    padding-right: 6%;
+
+}
+.line_three{
+    width: 80%;
+    padding: 2% 0%;
+    border-top: 1px solid gray;
+    text-align: center;
+}
+@media screen and (max-width: 800px){
+    .logo-footer{
+        width: 50%;
+    }
+    .twitter, .facebook, .instagram{
+        width: 10%;
+    }
+}
